@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1278</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">color :rgb(5, 30, 61);
+background-color:rgb(255, 255, 255);
+
+
+font: 87 9pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>191</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Numero Inscription :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>30</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">collor:rgb(255, 255, 255);
+alternate-background-color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>80</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nom :</string>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>610</x>
+      <y>10</y>
+      <width>21</width>
+      <height>491</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 81 11pt &quot;Rockwell Extra Bold&quot;;</string>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Vertical</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>150</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Prenom</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Date de Naissance :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>0</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 12pt &quot;Verdana Pro Cond Black&quot;;
+color:rgb(101, 30, 62);</string>
+    </property>
+    <property name="text">
+     <string>Adresse</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>60</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Numero de rue</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>120</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Nom de rue :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>190</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Ville :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>310</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string>Mail :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TelePhone :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>270</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 12pt &quot;Verdana Pro Cond Black&quot;;
+color:rgb(101, 30, 62);</string>
+    </property>
+    <property name="text">
+     <string>Education</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_12">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>330</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Section :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_13">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>380</y>
+      <width>171</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 87 10pt &quot;Neue Haas Grotesk Text Pro Blac&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Niveau d etude :</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>180</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_5">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>350</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_6">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>420</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_7">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>90</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_8">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>150</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_9">
+    <property name="geometry">
+     <rect>
+      <x>1060</x>
+      <y>220</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>500</y>
+      <width>93</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Submit</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEdit">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>270</y>
+      <width>121</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>370</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>LI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>CPI</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>TIC</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>EEA</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>420</y>
+      <width>111</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1ere</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2eme</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3eme</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1278</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuAcceuil">
+    <property name="title">
+     <string>Acceuil</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuMenu_Etudiant">
+    <property name="title">
+     <string>Menu Etudiant </string>
+    </property>
+    <widget class="QMenu" name="menuMise_a_jour_Etudiant">
+     <property name="title">
+      <string>Mise a jour Etudiant</string>
+     </property>
+     <addaction name="actionAjouter_Etudiant"/>
+     <addaction name="separator"/>
+     <addaction name="actionSupprimer_Etudiant"/>
+     <addaction name="separator"/>
+     <addaction name="actionModifier_Etudiant"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_et_Affichage">
+     <property name="title">
+      <string>Recherche et Affichage</string>
+     </property>
+     <addaction name="actionContenue_du_dictionnaire_Etudiant"/>
+     <addaction name="separator"/>
+     <addaction name="actionRecherche"/>
+    </widget>
+    <addaction name="menuMise_a_jour_Etudiant"/>
+    <addaction name="separator"/>
+    <addaction name="menuRecherche_et_Affichage"/>
+   </widget>
+   <widget class="QMenu" name="menuMenu_Gestion_Des_Livres">
+    <property name="title">
+     <string>Menu Gestion Des Livres</string>
+    </property>
+    <widget class="QMenu" name="menuMise_a_jour">
+     <property name="title">
+      <string>Mise a jour</string>
+     </property>
+     <widget class="QMenu" name="menuSupprimer">
+      <property name="title">
+       <string>Supprimer</string>
+      </property>
+      <addaction name="actionLivre_donnee"/>
+      <addaction name="actionLivres_d_un_auteur"/>
+      <addaction name="actionLivres_d_une_annee_donnee"/>
+     </widget>
+     <addaction name="actionAjouter_un_nouvel_Livre"/>
+     <addaction name="menuSupprimer"/>
+     <addaction name="actionModifier_nombre_d_exemplaires_d_un_Livre"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_et_Affichage_2">
+     <property name="title">
+      <string>Recherche et Affichage</string>
+     </property>
+     <addaction name="actionContenue_du_dictionnaire_livre"/>
+     <addaction name="actionRecherche_par_Referance"/>
+     <addaction name="actionRecherche_par_titre"/>
+     <addaction name="actionRecherche_par_annee_edition_donne"/>
+     <addaction name="actionRecherche_et_Affichage_des_livres_par_ordre_alphabetique"/>
+    </widget>
+    <addaction name="menuMise_a_jour"/>
+    <addaction name="menuRecherche_et_Affichage_2"/>
+   </widget>
+   <widget class="QMenu" name="menuGestion_Emprunts">
+    <property name="title">
+     <string>Gestion Emprunts</string>
+    </property>
+    <widget class="QMenu" name="menuMise_a_jour_2">
+     <property name="title">
+      <string>Mise a jour</string>
+     </property>
+     <widget class="QMenu" name="menuModifier_Emprunt">
+      <property name="title">
+       <string>Modifier Emprunt</string>
+      </property>
+      <addaction name="actionDate_emprunt"/>
+      <addaction name="actionDate_Retour"/>
+     </widget>
+     <addaction name="actionAjouter_un_nouvel_emprunt"/>
+     <addaction name="actionRetour_d_un_emprunt"/>
+     <addaction name="actionSupprimer_d_un_emprunt"/>
+     <addaction name="menuModifier_Emprunt"/>
+    </widget>
+    <widget class="QMenu" name="menuRecherche_Affichage">
+     <property name="title">
+      <string>Recherche ,Affichage</string>
+     </property>
+     <addaction name="actionContenu_du_dictionnaire_emprunt"/>
+     <addaction name="actionRecherche_emprunt_par_livre"/>
+     <addaction name="actionRecherche_emprunt_par_etudiant"/>
+     <addaction name="actionRecherche_livres_empruntee_a_une_date_donnee"/>
+     <addaction name="actionRecherche_livres_retournee_a_une_date_donne"/>
+     <addaction name="actionRecherche_livres_empruntee_entre_2_dates_donnee"/>
+     <addaction name="actionRecherche_livres_retournee_entre_2_date_donne"/>
+    </widget>
+    <addaction name="menuMise_a_jour_2"/>
+    <addaction name="menuRecherche_Affichage"/>
+   </widget>
+   <widget class="QMenu" name="menuRecuperation">
+    <property name="title">
+     <string>Enregistrement Et Recuperation</string>
+    </property>
+    <addaction name="actionRecuperer_les_donnee"/>
+    <addaction name="actionEnregistrer_Ficher_Livres"/>
+    <addaction name="actionEnregistrer_Ficher_Emprunt"/>
+    <addaction name="separator"/>
+    <addaction name="actionRecuperer_Ficher_Etudiant"/>
+    <addaction name="actionRecuperer_Ficher_Livres"/>
+    <addaction name="actionRecuperer_Ficher_Emprunt"/>
+   </widget>
+   <addaction name="menuAcceuil"/>
+   <addaction name="menuMenu_Etudiant"/>
+   <addaction name="menuMenu_Gestion_Des_Livres"/>
+   <addaction name="menuGestion_Emprunts"/>
+   <addaction name="menuRecuperation"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionAjouter_Etudiant">
+   <property name="text">
+    <string>Ajouter Etudiant</string>
+   </property>
+  </action>
+  <action name="actionEtudiant_Donnee">
+   <property name="text">
+    <string>Etudiant Donnee</string>
+   </property>
+  </action>
+  <action name="actionUne_Section_Donnee">
+   <property name="text">
+    <string>Une Section Donnee</string>
+   </property>
+  </action>
+  <action name="actionUn_Niveau_Donnee">
+   <property name="text">
+    <string>Un Niveau Donnee</string>
+   </property>
+  </action>
+  <action name="actionSection_et_Niveau">
+   <property name="text">
+    <string>Section et Niveau</string>
+   </property>
+  </action>
+  <action name="actionTel">
+   <property name="text">
+    <string>Tel</string>
+   </property>
+  </action>
+  <action name="actionMail">
+   <property name="text">
+    <string>Mail</string>
+   </property>
+  </action>
+  <action name="actionAdresse">
+   <property name="text">
+    <string>Adresse</string>
+   </property>
+  </action>
+  <action name="actionContenue_du_dictionnaire_Etudiant">
+   <property name="text">
+    <string>Afficher les Etudiants</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_numero_inscription">
+   <property name="text">
+    <string>Recherche par numero inscription</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section">
+   <property name="text">
+    <string>Recherche par section</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_section_et_Niveau">
+   <property name="text">
+    <string>Recherche par section et Niveau </string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_Niveau">
+   <property name="text">
+    <string>Recherche par Niveau</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_nouvel_Livre">
+   <property name="text">
+    <string>Ajouter un nouvel Livre</string>
+   </property>
+  </action>
+  <action name="actionModifier_nombre_d_exemplaires_d_un_Livre">
+   <property name="text">
+    <string>Modifier nombre d exemplaires d un Livre</string>
+   </property>
+  </action>
+  <action name="actionLivre_donnee">
+   <property name="text">
+    <string>Livre donnee</string>
+   </property>
+  </action>
+  <action name="actionLivres_d_un_auteur">
+   <property name="text">
+    <string>Livres d un auteur</string>
+   </property>
+  </action>
+  <action name="actionLivres_d_une_annee_donnee">
+   <property name="text">
+    <string>Livres d une annee donnee</string>
+   </property>
+  </action>
+  <action name="actionContenue_du_dictionnaire_livre">
+   <property name="text">
+    <string>Contenue du dictionnaire livre</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_Referance">
+   <property name="text">
+    <string>Recherche par Referance </string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_titre">
+   <property name="text">
+    <string>Recherche par titre</string>
+   </property>
+  </action>
+  <action name="actionRecherche_par_annee_edition_donne">
+   <property name="text">
+    <string>Recherche par annee edition donne</string>
+   </property>
+  </action>
+  <action name="actionRecherche_et_Affichage_des_livres_par_ordre_alphabetique">
+   <property name="text">
+    <string>Recherche et Affichage des livres par ordre alphabetique</string>
+   </property>
+  </action>
+  <action name="actionAjouter_un_nouvel_emprunt">
+   <property name="text">
+    <string>Ajouter un nouvel emprunt</string>
+   </property>
+  </action>
+  <action name="actionRetour_d_un_emprunt">
+   <property name="text">
+    <string>Retour d un emprunt</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_d_un_emprunt">
+   <property name="text">
+    <string>Supprimer d un emprunt</string>
+   </property>
+  </action>
+  <action name="actionDate_emprunt">
+   <property name="text">
+    <string>Date emprunt</string>
+   </property>
+  </action>
+  <action name="actionDate_Retour">
+   <property name="text">
+    <string>Date Retour</string>
+   </property>
+  </action>
+  <action name="actionContenu_du_dictionnaire_emprunt">
+   <property name="text">
+    <string>Contenu du dictionnaire emprunt</string>
+   </property>
+  </action>
+  <action name="actionRecherche_emprunt_par_livre">
+   <property name="text">
+    <string>Recherche emprunt par livre</string>
+   </property>
+  </action>
+  <action name="actionRecherche_emprunt_par_etudiant">
+   <property name="text">
+    <string>Recherche emprunt par etudiant</string>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_empruntee_a_une_date_donnee">
+   <property name="text">
+    <string>Recherche livres empruntee a une date donnee</string>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_retournee_a_une_date_donne">
+   <property name="text">
+    <string>Recherche livres retournee a une date donne</string>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_empruntee_entre_2_dates_donnee">
+   <property name="text">
+    <string>Recherche livres empruntee entre 2 dates donnee</string>
+   </property>
+  </action>
+  <action name="actionRecherche_livres_retournee_entre_2_date_donne">
+   <property name="text">
+    <string>Recherche livres retournee entre 2 date donne</string>
+   </property>
+  </action>
+  <action name="actionSupprimer_Etudiant">
+   <property name="text">
+    <string>Supprimer Etudiant</string>
+   </property>
+  </action>
+  <action name="actionModifier_Etudiant">
+   <property name="text">
+    <string>Modifier Etudiant</string>
+   </property>
+  </action>
+  <action name="actionRecuperer_les_donnee">
+   <property name="text">
+    <string>Recuperer les donnee</string>
+   </property>
+  </action>
+  <action name="actionMenu_Aceuil">
+   <property name="text">
+    <string>Menu Aceuil</string>
+   </property>
+  </action>
+  <action name="actionRecherche">
+   <property name="text">
+    <string>Recherche</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_Ficher_Livres">
+   <property name="text">
+    <string>Enregistrer Ficher Livres</string>
+   </property>
+  </action>
+  <action name="actionEnregistrer_Ficher_Emprunt">
+   <property name="text">
+    <string>Enregistrer Ficher Emprunt</string>
+   </property>
+  </action>
+  <action name="actionRecuperer_Ficher_Etudiant">
+   <property name="text">
+    <string>Recuperer Ficher Etudiant</string>
+   </property>
+  </action>
+  <action name="actionRecuperer_Ficher_Livres">
+   <property name="text">
+    <string>Recuperer Ficher Livres</string>
+   </property>
+  </action>
+  <action name="actionRecuperer_Ficher_Emprunt">
+   <property name="text">
+    <string>Recuperer Ficher Emprunt</string>
+   </property>
+  </action>
+  <action name="actionClear_Ficher_etudiant">
+   <property name="text">
+    <string>Clear Ficher etudiant</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
